@@ -42,9 +42,11 @@ a:hover {
   color: blue;
 }
 
-.edit-task {
-  display: inline-block;
-  // justify-content: space-between;
+.edit-tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin: 10px;
 }
 
 .button {

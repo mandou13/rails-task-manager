@@ -1,11 +1,11 @@
 
-<h1 class='edit-task'> <%= @task.title %> </h1>
+<div class= 'edit-tasks'>
+  <h1 class='edit-task'> <%= @task.title %> </h1>
 
-<%= link_to edit_path do %>
-  <p class="edit-task button"> <i class="fas fa-edit"></i>  Edit this task</p>
-<% end %>
-
-
+  <%= link_to edit_path do %>
+    <p class="edit-task button"> <i class="fas fa-edit"></i>  Edit this task</p>
+  <% end %>
+</div>
 
 
 <div id='description'>
